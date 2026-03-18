@@ -26,7 +26,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'cashflow.urls'  # ✅ ВАЖНО: здесь cashflow, а не core
+ROOT_URLCONF = 'cashflow.urls'  
 
 TEMPLATES = [
     {
@@ -62,7 +62,6 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-# ✅ Авторизация
 LOGOUT_REDIRECT_URL = '/'
 LOGIN_REDIRECT_URL = '/'
 LOGIN_URL = '/accounts/login/'
